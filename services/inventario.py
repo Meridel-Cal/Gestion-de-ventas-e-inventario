@@ -23,3 +23,9 @@ class Inventario:
     def eliminar_producto(self):
         print("\n[Inventario]")
         print("Eliminar producto pendiente")
+        
+    def mostrar_cantidad_productos(self):
+        """
+        Este metodo se puede implementar si queremos saber cuantos productos hay en el inventario, pero no es necesario ya que podemos usar len() para obtener la cantidad de productos en la lista.
+        """
+        print("Mostrar cantidad de productos pendiente")
