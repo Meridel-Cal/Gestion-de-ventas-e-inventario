@@ -19,3 +19,7 @@ class Inventario:
     def buscar_producto(self):
         print("\n[Inventario]")
         print("Buscar producto pendiente")
+        
+    def eliminar_producto(self):
+        print("\n[Inventario]")
+        print("Eliminar producto pendiente")
